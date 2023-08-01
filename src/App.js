@@ -6,7 +6,7 @@ function App() {
   const [img, setImg] = useState("");
   const [res, setRes] = useState([]);
   const [loading, setLoading] = useState(true);
-  const Access_Key = "it6kDzNMvhnsZG6BwghuJq0HhZoYDFofPwpcyA13diE";
+  const Access_Key = "";
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 6000);
